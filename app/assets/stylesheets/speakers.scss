@@ -1,0 +1,99 @@
+// Place all the styles related to the speakers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+.quote2 {
+  background: black;
+  position: relative;
+  z-index: 0;
+  &:after {
+    background: inherit;
+    content: '';
+    display: block;
+    height: 40%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    -webkit-backface-visibility: hidden; // for Chrome Windows
+  }
+
+  &:after {
+    bottom: 0;
+    transform: skewY(-5deg);
+    transform-origin: 100%;
+  }
+}
+
+
+.hero {
+  background-color: black;
+}
+
+.hero1 {
+  background-color: black;
+}
+
+.hero2 {
+  background-color: white;
+}
+
+.h2wh {
+  font-size: 50px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 30px;
+  margin-bottom: 30px;
+  letter-spacing: 10px;
+}
+.h2blk {
+  font-size: 50px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: bold;
+  margin-bottom: 30px;
+  margin-bottom: 30px;
+  letter-spacing: 10px;
+}
+
+.h3blk {
+      font-size: 30px;
+      font-family: 'Titillium Web', sans-serif;
+      color: black;
+      font-weight: 2000;
+}
+
+.h4blk {
+      font-size: 30px;
+      font-family: 'Titillium Web', sans-serif;
+      color: black;
+      font-weight: 2000;
+}
+
+.pblk{
+ font-size: 20px;
+     font-family: 'Titillium Web', sans-serif;
+    color: white;
+    line-height: 150%;
+}
+
+.pblk2{
+ font-size: 20px;
+     font-family: 'Titillium Web', sans-serif;
+    color: black;
+    line-height: 150%;
+}
+.btnspeaker{
+  background:none;
+  border:none;
+  margin:0;
+  padding:0;
+  font-size: 18px;
+  font-family: 'Titillium Web', sans-serif;
+  color: black;
+}

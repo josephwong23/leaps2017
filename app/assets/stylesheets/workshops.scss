@@ -1,0 +1,14 @@
+// Place all the styles related to the workshops controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+// Colors
+.parallaxworkshops {
+    background-image: url('https://s3-ap-southeast-1.amazonaws.com/leadershipconference/YTL+LC+Workshop+Banner-02.jpg');
+    min-height: 800px;
+    font-family: 'Titillium Web', sans-serif;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f4d942;
+}

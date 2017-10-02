@@ -1,0 +1,84 @@
+
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+ .navbar {
+     margin-bottom: 0;
+     background-color: transparent !important;
+     z-index: 9999;
+     border: none !important;
+     font-size: 12px !important;
+     line-height: 1.42857143 !important;
+     letter-spacing: 4px;
+     border-radius: 0;
+     font-family: 'Titillium Web', sans-serif;
+ }
+
+ .navbar.white {
+   background-color: white !important;
+   color: black !important;
+ }
+
+ .navbar li a, .navbar .navbar-brand {
+     color: #fff !important;
+ }
+
+ .navbar.white li a, .navbar .navbar-brand {
+     color: black !important;
+ }
+
+ .navbar-nav li a:hover, .navbar-nav li.active a {
+     color: #FFFFFF!important;
+     background-color: #00B4F0 !important;
+ }
+ .navbar-default .navbar-toggle {
+     border-color: transparent;
+     color: #00B4F0 !important;
+ }
+
+ body {
+     font: 400 15px Titillium Web, sans-serif;
+     line-height: 1.8;
+     color: #818181;
+ }
+
+ h1 {
+     font-size: 1000px;
+     font-family: 'Titillium Web', sans-serif;
+     text-transform: uppercase;
+     color: #303030;
+     font-weight: 2000;
+ }
+
+ h2 {
+     font-size: 404px;
+     font-family: 'Titillium Web', sans-serif;
+     text-transform: uppercase;
+     color: #303030;
+     font-weight: 600;
+     margin-bottom: 30px;
+ }
+
+ p {
+   font: 200px;
+   font: Titillium Web, sans-serif;
+   line-height: 1.8;
+   color: black;
+ }
+
+ .ytlblue {
+     background-color: lightblue;
+ }
