@@ -36,6 +36,10 @@
      color: #fff !important;
  }
 
+img.navbar-brand {
+    width: 150px;
+    height: auto;
+}
  .navbar.white li a, .navbar .navbar-brand {
      color: black !important;
  }
