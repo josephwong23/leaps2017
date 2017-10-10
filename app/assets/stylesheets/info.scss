@@ -2,6 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.infofont{
+  font-size: 20px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: regular;
+  color: black;
+}
+
 .parallaxinfo {
     background-image: url('https://s3-ap-southeast-1.amazonaws.com/leadershipconference/YTL+LC+Registration+Banner-01.jpg');
     min-height: 800px;

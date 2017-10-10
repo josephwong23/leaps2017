@@ -16,6 +16,22 @@ body {
   background-color: lightskyblue;
 }
 
+.buttonb {
+  background-color: #3c3c3c; /* Green */
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  border-radius: 8px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
 // button {
 //   width: 20vw;
 //   height: 6vw;

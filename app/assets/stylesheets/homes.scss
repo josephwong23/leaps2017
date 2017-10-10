@@ -8,6 +8,7 @@
     padding-left:0;
 }
 
+
 .mediumfont {
      font-size: 30px;
      font-family: 'Titillium Web', sans-serif;
@@ -18,11 +19,89 @@
      margin-bottom: 30px;
  }
 
+ .mediumfonthome {
+      font-size: 30px;
+      font-family: 'Titillium Web', sans-serif;
+      font-weight: 700;
+      color: black;
+      margin-bottom: 30px;
+      margin-bottom: 30px;
+  }
+
+.smallfont {
+     font-size: 25px;
+     font-family: 'Titillium Web', sans-serif;
+     font-weight: bold;
+     color: black;
+     margin-bottom: 30px;
+     margin-bottom: 30px;
+ }
+.smallfontworkshop {
+     font-size: 25px;
+     font-family: 'Titillium Web', sans-serif;
+     font-weight: bold;
+     color: black;
+ }
+
+ .smallfontspeaker {
+      font-size: 20px;
+      font-family: 'Titillium Web', sans-serif;
+      font-weight: bold;
+      color: black;
+  }
+
+  .buttona {
+    background-color: #00B4F0; /* Green */
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 8px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.buttonrsvp {
+  background-color: #3c3c3c; /* Green */
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  border-radius: 8px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.buttonrsvp {
+  background-color: #3c3c3c; /* Green */
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  border-radius: 8px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
 
 .h4 {
    font-family: 'Titillium Web', sans-serif;
    font-size: 22px;
-   color: #303030;
+   color: black;
    font-weight: 300;
 }
 
@@ -74,7 +153,7 @@
 }
 
 .quote {
-  background: #41ade5;
+  background: #00b4f0;
   position: relative;
   z-index: 0;
   &:after {
@@ -97,8 +176,8 @@
 }
 
 .jumbotron {
-    background-color: #f4511e;
-    color: #fff;
+    background-color: #00b4f0;
+    color: #00b4f0;
     padding: 100px 25px;
 }
 
@@ -114,7 +193,7 @@
 }
 
 .parallax3 {
-    background-image: url('https://s3-ap-southeast-1.amazonaws.com/leadershipconference/YTL+LC+Keynote+Banner+copy-01.jpg');
+    background-image: url('https://s3-ap-southeast-1.amazonaws.com/leadershipconference/YTL+LC+Keynote+Banner+copy-02.jpg');
     min-height: 800px;
     font-family: 'Titillium Web', sans-serif;
     background-attachment: fixed;
@@ -140,7 +219,7 @@
     color:black;
     text-align:center ;
     font-family: 'Titillium Web', sans-serif;
-    font-weight: 800; font-size:100px
+    font-weight: bold; font-size:100px
 }
 
 .my-img {
@@ -150,7 +229,7 @@
 .inside-parallax {
   height:250px;
   color:white;
-  text-align:center ;
+  text-align:center;
   font-family: 'Titillium Web', sans-serif;
   font-weight: bold;
   font-size:110px;
