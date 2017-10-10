@@ -15,6 +15,10 @@
  *= require_self
  *= require_tree .
  */
+/*External libraries*/
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
  .navbar {
      margin-bottom: 0;
      background-color: transparent !important;
