@@ -27,7 +27,7 @@ class PagesController < ApplicationController
 
   def authenticate
     input = params[:passphrase]
-    if input == "SINCE1955"
+    if input == "ytlleaders2017"
       cookies[:ytl] = {
         value: 'cookie',
         expires: 1.month.from_now
