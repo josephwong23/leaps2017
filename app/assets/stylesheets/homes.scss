@@ -23,9 +23,7 @@ a:hover{
  outline-style: none !important;
 }
 
-.arrow{
-  padding-bottom: -40px;
-}
+
 
 .mediumfont {
      font-size: 30px;
@@ -245,14 +243,23 @@ a:hover{
 }
 
 .inside-parallax {
-  height:250px;
+  height:27vh;
   color:white;
   text-align:center;
   font-family: 'Titillium Web', sans-serif;
   font-weight: bold;
-  font-size:110px;
+  font-size:8vw;
   font-kerning: 50px;
   line-height: 100px;
+  letter-spacing: 10px;
+}
+
+.subinside-parallax {
+  height:28vh;
+  color:white;
+  text-align:center ;
+  font-family: 'Titillium Web', sans-serif;
+  font-size:2vw;
   letter-spacing: 10px;
 }
 
@@ -265,13 +272,8 @@ a:hover{
   font-size:15px;
 }
 
-.subinside-parallax {
-  height:140px;
-  color:white;
-  text-align:center ;
-  font-family: 'Titillium Web', sans-serif;
-  font-size:40px;
-  letter-spacing: 10px;
+.arrow{
+  height:75%;
 }
 
 .divcolor {
