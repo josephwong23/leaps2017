@@ -246,26 +246,99 @@ a:hover{
       background-image: url("background.png");
 }
 
-.inside-parallax {
-  height:29vh;
-  color:white;
-  text-align:center;
-  font-family: 'Titillium Web', sans-serif;
-  font-weight: bold;
-  font-size:8vw;
-  font-kerning: 50px;
-  line-height: 100px;
-  letter-spacing: 10px;
+@media only screen and (max-width: 320px) {
+  .inside-parallax {
+    height:13vh;
+    color:white;
+    text-align:center;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size:8vw;
+    font-kerning: 50px;
+    line-height: 27px;
+    letter-spacing: 10px;
+  }
+
+  .subinside-parallax {
+    height:6vh;
+    color:white;
+    text-align:center ;
+    font-family: 'Titillium Web', sans-serif;
+    font-size:4vw;
+    letter-spacing: 10px;
+  }
+}
+@media only screen and (min-width: 321px) {
+  .inside-parallax {
+    height:18vh;
+    color:white;
+    text-align:center;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size:7vw;
+    font-kerning: 50px;
+    line-height: 63px;
+    letter-spacing: 10px;
+  }
+
+  .subinside-parallax {
+    height:15vh;
+    color:white;
+    text-align:center ;
+    font-family: 'Titillium Web', sans-serif;
+    font-size:2vw;
+    letter-spacing: 10px;
+  }
 }
 
-.subinside-parallax {
-  height:8vh;
-  color:white;
-  text-align:center ;
-  font-family: 'Titillium Web', sans-serif;
-  font-size:2vw;
-  letter-spacing: 10px;
+
+@media only screen and (min-width: 900px) {
+  .inside-parallax {
+    height:29vh;
+    color:white;
+    text-align:center;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size:8vw;
+    font-kerning: 50px;
+    line-height: 80px;
+    letter-spacing: 10px;
+  }
+  .subinside-parallax {
+    height:8vh;
+    color:white;
+    text-align:center ;
+    font-family: 'Titillium Web', sans-serif;
+    font-size:2vw;
+    letter-spacing: 10px;
+  }
 }
+@media only screen and (min-width: 901px) {
+  .inside-parallax {
+    height:60vh;
+    color:white;
+    text-align:center;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size:8vw;
+    font-kerning: 50px;
+    line-height: 150px;
+    letter-spacing: 10px;
+  }
+  .subinside-parallax {
+    height:8vh;
+    color:white;
+    text-align:center ;
+    font-family: 'Titillium Web', sans-serif;
+    font-size:2vw;
+    letter-spacing: 10px;
+  }
+}
+
+
+
+
+
 
 .scrolldown {
   color:white;
