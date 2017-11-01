@@ -271,9 +271,32 @@ a:hover{
     letter-spacing: 10px;
   }
 }
-@media only screen and (min-width: 321px) {
+@media only screen and (max-width: 630px) and (min-width: 300px) {
   .inside-parallax {
-    height:18vh;
+    height:11vh;
+    color:white;
+    text-align:center;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size:7vw;
+    font-kerning: 50px;
+    line-height: 42px;
+    letter-spacing: 10px;
+    margin-top: -180px;
+  }
+
+  .subinside-parallax {
+    height:3vh;
+    color:white;
+    text-align:center ;
+    font-family: 'Titillium Web', sans-serif;
+    font-size:2vw;
+    letter-spacing: 10px;
+  }
+}
+@media only screen and (max-width: 899px) and (min-width: 631px) {
+  .inside-parallax {
+    height:14vh;
     color:white;
     text-align:center;
     font-family: 'Titillium Web', sans-serif;
@@ -282,10 +305,11 @@ a:hover{
     font-kerning: 50px;
     line-height: 63px;
     letter-spacing: 10px;
+    margin-top: -149px;
   }
 
   .subinside-parallax {
-    height:15vh;
+    height:3vh;
     color:white;
     text-align:center ;
     font-family: 'Titillium Web', sans-serif;
@@ -295,9 +319,9 @@ a:hover{
 }
 
 
-@media only screen and (min-width: 900px) {
+@media only screen and (max-width: 1299px) and (min-width: 900px) {
   .inside-parallax {
-    height:29vh;
+    height:184px;
     color:white;
     text-align:center;
     font-family: 'Titillium Web', sans-serif;
@@ -306,9 +330,10 @@ a:hover{
     font-kerning: 50px;
     line-height: 80px;
     letter-spacing: 10px;
+    margin-top: -84px;
   }
   .subinside-parallax {
-    height:8vh;
+    height:50px;
     color:white;
     text-align:center ;
     font-family: 'Titillium Web', sans-serif;
@@ -316,16 +341,16 @@ a:hover{
     letter-spacing: 10px;
   }
 }
-@media only screen and (min-width: 901px) {
+@media only screen and (min-width: 1300px) {
   .inside-parallax {
-    height:60vh;
+    height:247px;
     color:white;
     text-align:center;
     font-family: 'Titillium Web', sans-serif;
     font-weight: bold;
     font-size:8vw;
     font-kerning: 50px;
-    line-height: 150px;
+    line-height: 100px;
     letter-spacing: 10px;
   }
   .subinside-parallax {
