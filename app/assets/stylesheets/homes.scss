@@ -341,16 +341,16 @@ a:hover{
     letter-spacing: 10px;
   }
 }
-@media only screen and (min-width: 1300px) {
+@media only screen and (max-width: 2000px) and (min-width: 1300px) {
   .inside-parallax {
-    height:247px;
+    height:370px;
     color:white;
     text-align:center;
     font-family: 'Titillium Web', sans-serif;
     font-weight: bold;
     font-size:8vw;
     font-kerning: 50px;
-    line-height: 100px;
+    line-height: 120px;
     letter-spacing: 10px;
   }
   .subinside-parallax {
