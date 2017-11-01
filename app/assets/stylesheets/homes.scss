@@ -249,7 +249,7 @@ a:hover{
       background-image: url("background.png");
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 299px) and (min-width: 100px) {
   .inside-parallax {
     height:13vh;
     color:white;
@@ -296,7 +296,7 @@ a:hover{
 }
 @media only screen and (max-width: 899px) and (min-width: 631px) {
   .inside-parallax {
-    height:14vh;
+    height:21vh;
     color:white;
     text-align:center;
     font-family: 'Titillium Web', sans-serif;
